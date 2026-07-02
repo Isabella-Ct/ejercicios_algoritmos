@@ -2,7 +2,7 @@ var numero1 = 10;
 var numero2 = 6;
 var numero3 = 24;
 
-let resultado = 0;
+var resultado = 0;
 
 resultado = numero1 + numero2 + numero3;
 
