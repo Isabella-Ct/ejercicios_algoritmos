@@ -8,6 +8,7 @@ function pagoMatricula (matricula ) {
     console.log("Segunda cuota: $" + cuota2);
     console.log("Tercera cuota: $" + cuota3);
     console.log("Cuarta cuota: $" + cuota4);
+    console.log("Total de la matricula: $" + matricula);
 
 }
 

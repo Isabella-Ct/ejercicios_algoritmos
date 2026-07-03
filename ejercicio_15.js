@@ -5,7 +5,7 @@ function registrarVenta(montoVenta, cantidadPagada) {
 
     console.log("IVA: " + iva);
     console.log("Total a pagar: $" + totalPagar);
-    console.log("Cambio a devolver: $" + cambio);
+    console.log("Cambio: $" + cambio);
 }
 
 registrarVenta(100000, 170000);
