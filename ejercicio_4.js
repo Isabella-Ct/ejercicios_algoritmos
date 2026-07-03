@@ -5,4 +5,4 @@ function calcularDefinitiva(nota1, nota2, nota3){
     return totalNota1+totalNota2+totalNota3;
 }
 
-console.log( "la nota definitiva del aprendiz es: " + calcularDefinitiva(3.4, 4, 5));
+console.log( "la nota definitiva del aprendiz es: " + calcularDefinitiva(4.4, 3.8, 5));
