@@ -1,13 +1,16 @@
-const interesAnual = 0.5;
-function prestamo(montoPrestamo) {
-    let totalInteresAño = montoPrestamo * interesAnual
-    let interesTrimestre = (interesAnual / 12) + 3;
-    let interesMes1 = (interesAnual / 12);
-    let total = montoPrestamo + totalInteresAño;
+let montoPrestamo = 3000000;
+const tasaAnual = 0.05;
+const plazoAnios = 5;
 
-    console.log ("Total intereses del año: $" + totalInteresAño.toFixed(0));
-    console.log("Total intereses trimestre del año: $" + interesTrimestre.toFixed(3));
-    console.log("total interes primer mes: $" + interesMes1.toFixed(1));
-    console.log("Total prestamo + intereses: $" + total.toFixed(0));
-}
-prestamo (20000000);
+let interesAnio = montoPrestamo * tasaAnual;
+
+let interesUnMes = interesAnio / 12;
+let interesTercerTrimestre = interesUnMes * 3;
+
+let interesTotalCincoAnios = interesAnio * plazoAnios;
+let totalAPagar = montoPrestamo + interesTotalCincoAnios;
+
+console.log("Intereses pagados en un año: " + interesAnio);
+console.log("intereses pagados en el tercer trimestre: " + interesTercerTrimestre);
+console.log("Intereses pagados en el primer mes: " + interesUnMes);
+console.log("Total a pagar por el prestamo: " + totalAPagar);
